@@ -13,12 +13,16 @@ body {
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 .slides {
     width: 500%;
     height: 500px;
     display: flex;
+    flex: none;
+    scroll-snap-align: start;
 }
 
 .slides input {
