@@ -13,11 +13,6 @@ body {
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-}
-.slider::-webkit-scrollbar{
-    display: none;
 }
 
 .slides {
